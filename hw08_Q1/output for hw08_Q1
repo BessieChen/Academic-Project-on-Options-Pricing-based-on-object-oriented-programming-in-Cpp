@@ -1,0 +1,3 @@
+   cout << setiosflags(ios::fixed) << setprecision(4);    double Acc=0.001;    double LEnd=0.0, REnd=2.0;    double Tgt=0.0;    double Guess=1.0;
+Output:
+Root of F1 by bisect: 1.4150 Root of F2 by bisect: 1.7314 Root of F1 by Newton-Raphson: 1.4142 Root of F2 by Newton-Raphson: 1.7321
