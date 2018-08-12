@@ -16,6 +16,7 @@ Include the ability to price digital calls and puts in the program developed in 
 Homework 03:
 
 A definite integral can be computed numerically by trapezoidal approximation:
+<img width="759" alt="default" src="https://user-images.githubusercontent.com/33269462/44006689-58123860-9e56-11e8-9072-2d5ff7fb6fff.png">
 Wherexk =a+khfork=0,1,...N.WriteaclasscalledDefInttocomputethe trapezoidal approximation for a given function f(x). The class should contain the following:
 1) Private members to hold the values of the integration limits a and b and a pointer
 to the function f.
@@ -30,10 +31,14 @@ the Simpson approximation to the integral (look it up in the literature).
 Homework 04:
 
 Addtheabilitytopricebullspreadsandbear spreads by introducing new subclasses BullSpread and BearSpread of EurOption class defined in Options06.h. Use the new classes, making suitable changes in Main10.cpp to price European bull and bear spreads.
+<img width="971" alt="2" src="https://user-images.githubusercontent.com/33269462/44006697-9642c4ec-9e56-11e8-8035-68ea6bae61ba.png">
+
 
 Homework 05:
 
 Addfurtherpayoffs,namely,strangle,and butterfly spreads, by means of subclasses of the EuroOption class placed in separate files, without changing anything in existing code, except for the necessary changes in Main11.cpp, to price options with the newly introduced payoffs.
+<img width="974" alt="default" src="https://user-images.githubusercontent.com/33269462/44006703-c36380b0-9e56-11e8-84cf-510436f805e7.png">
+
 
 Homework 06:
 
