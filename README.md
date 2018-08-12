@@ -7,6 +7,7 @@
 Homework 01:
 
 ModifythePriceByCRR()functionin Options01.cpp to compute the time 0 price of an European option using CRR formula
+<img width="816" alt="default" src="https://user-images.githubusercontent.com/33269462/44006653-b43173c8-9e55-11e8-8711-b0cab8e8935e.png">
 
 Homework 02:
 
