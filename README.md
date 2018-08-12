@@ -4,16 +4,16 @@
 
 • Utilized Monte Carlo techniques for path-dependent derivative securities pricing
 
-Homework 01:
+## Homework 01:
 
 ModifythePriceByCRR()functionin Options01.cpp to compute the time 0 price of an European option using CRR formula
 <img width="816" alt="default" src="https://user-images.githubusercontent.com/33269462/44006653-b43173c8-9e55-11e8-8711-b0cab8e8935e.png">
 
-Homework 02:
+## Homework 02:
 
 Include the ability to price digital calls and puts in the program developed in the present section by adding new payoff functions to the files Options03.h, Options03.cpp and Main07.cpp
 
-Homework 03:
+## Homework 03:
 
 A definite integral can be computed numerically by trapezoidal approximation:
 <img width="759" alt="default" src="https://user-images.githubusercontent.com/33269462/44006689-58123860-9e56-11e8-9072-2d5ff7fb6fff.png">
@@ -28,35 +28,35 @@ trapezoidal approximation to the integral when called by MyInt.ByTrapzoidal(N).
 4) You may also want to include another public function BySimpson() to compute
 the Simpson approximation to the integral (look it up in the literature).
 
-Homework 04:
+## Homework 04:
 
 Addtheabilitytopricebullspreadsandbear spreads by introducing new subclasses BullSpread and BearSpread of EurOption class defined in Options06.h. Use the new classes, making suitable changes in Main10.cpp to price European bull and bear spreads.
 <img width="971" alt="2" src="https://user-images.githubusercontent.com/33269462/44006697-9642c4ec-9e56-11e8-8035-68ea6bae61ba.png">
 
 
-Homework 05:
+## Homework 05:
 
 Addfurtherpayoffs,namely,strangle,and butterfly spreads, by means of subclasses of the EuroOption class placed in separate files, without changing anything in existing code, except for the necessary changes in Main11.cpp, to price options with the newly introduced payoffs.
 <img width="974" alt="default" src="https://user-images.githubusercontent.com/33269462/44006703-c36380b0-9e56-11e8-84cf-510436f805e7.png">
 
 
-Homework 06:
+## Homework 06:
 
 Modify the PriceByCRR() function in Options09.h and Options09.cpp to compute the replicating strategy for a European option in the binomial tree model, using the BinLattice<> class template to store the stock and money market account positions in the replicating strategy at the nodes of the binomial tree. X(n, i) is the delta (fraction) of share of stock at each node on the stock tree, y(n, i) is the money market position at each node on the money market tree. Negative value mean borrowed money
 
-Homework 07:
+## Homework 07:
 
 Develop code to compute the approximate price for an American put option in the Black-Scholes model by means of this binomial tree approximation.
 
-Homework 08_Q1:
+## Homework 08_Q1:
 
 AlterthecodeinSolver03.handMain17.cppto have an object of type Function passed by reference to SolveByBisect() and SolveByNR() rather than a pointer to an object of type Function passed to them.
 
-Homework 08_Q2:
+## Homework 08_Q2:
 
 Using Solver03.h, write a program to compute the yield of a coupon bond by solving the above non-linear equation.
 
-Homework 09:
+## Homework 09:
 
 Derive a class from the base class, PathDepOption, to compute the prices of European call and put options.
 
