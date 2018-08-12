@@ -1,0 +1,11 @@
+The following is the sample input and output you should use to verify your program:
+/*
+Enter S0: 106 Enter U:  0.15125 Enter D:  -0.13138 Enter R:  0.00545
+Input data checked There is no arbitrage
+Enter call option data: Enter steps to expiry N: 8 Enter strike price K:    100
+European call option price = 21.6811
+European digit call option price = 0.575897
+Enter put option data: Enter steps to expiry N: 8 Enter strike price K:    100
+European put option price =  11.4261
+European digit put option price =  0.381553
+*/
